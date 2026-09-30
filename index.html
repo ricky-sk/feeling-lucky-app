@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Feeling Lucky</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti"></canvas>
+
+  <main class="card">
+    <h1>🍀 Feeling Lucky?</h1>
+    <p class="subtitle">Tap the button and find out what today has in store.</p>
+
+    <button id="luckyBtn">I'm Feeling Lucky</button>
+
+    <section id="result" class="result hidden">
+      <p class="fortune" id="fortune"></p>
+      <div class="stats">
+        <div class="stat">
+          <span class="label">Lucky Number</span>
+          <span class="value" id="number"></span>
+        </div>
+        <div class="stat">
+          <span class="label">Lucky Color</span>
+          <span class="value" id="color"></span>
+          <span class="swatch" id="swatch"></span>
+        </div>
+        <div class="stat">
+          <span class="label">Luck Meter</span>
+          <span class="value" id="percent"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
